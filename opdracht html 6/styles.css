@@ -1,0 +1,90 @@
+/* Styles */
+
+html {
+    top: 0;
+}
+body { 
+    color: red;
+    margin: auto;
+    top: 0px;
+    max-width: 960px;
+    top: 0;
+}
+
+header {
+    background: lightslategray;
+    top: 0;
+    padding: 5%;
+    /* padding: 30px 20px; */
+}
+
+main {
+    background: lightgrey;
+    padding: 5%;
+}
+
+.black-border {
+    border: 5px solid black;
+}
+
+#green-background {
+    background-color: green;
+}
+
+nav {
+    background-color: indigo;
+    position: sticky;
+    top: 0;
+    padding: 20px;
+    text-align: right;
+}
+
+nav li {
+    list-style: none;
+    display: inline;
+
+}
+
+nav p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    writing-mode: vertical-rl; 
+}
+
+img {
+    width: 500px;
+    height: 414px;
+    background: #fff url(george.jpg) no-repeat;
+    border: 12px dashed #1b1a19; }
+img p {
+    color: #fff;
+    margin: 10px 10px 0 0;
+    font: bold 60px Georgia, "Times New Roman", Times, serif;
+    text-align: right;
+}
+
+
+/* Fontsizes  */
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.p {
+    font-family: sans-serif;
+    font: bold;
+    font-size: 1rem;
+    color: black;
+    background-color: grey;
+    border: 2 2 2 2;
+}
+
+@media (min-width: 1024px) {
+    body {
+        background-color: bisque;
+        color: blue;
+    }
+}
