@@ -1,0 +1,58 @@
+/* Styles */
+
+body { 
+    color: red;
+    margin: auto;
+    top: 0px;
+}
+
+.black-border {
+    border: 5px solid black;
+}
+
+#green-background {
+    background-color: green;
+}
+
+header {
+    background-color: indigo;
+    position: sticky;
+    top: 0;
+}
+
+nav p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    writing-mode: vertical-rl; 
+}
+
+img {
+    width: 500px;
+    height: 414px;
+    background: #fff url(george.jpg) no-repeat;
+    border: 12px dashed #1b1a19; }
+img p {
+    color: #fff;
+    margin: 10px 10px 0 0;
+    font: bold 60px Georgia, "Times New Roman", Times, serif;
+    text-align: right;
+}
+
+
+/* Fonts  */
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.p {
+    font-family: sans-serif;
+    font: bold;
+    font-size: 1rem;
+    color: black;
+    background-color: grey;
+    border: 2 2 2 2;
+}
