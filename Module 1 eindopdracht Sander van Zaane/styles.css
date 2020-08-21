@@ -1,0 +1,251 @@
+/*******************
+                    Global styles (mobile first)
+******************/
+
+html {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #bb974a;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    overflow: hidden;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 3px solid lightgrey;
+    border-radius: 5px;
+}
+
+button {
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #bb974a;
+    border: 3px solid white;
+    color: white;
+}
+
+button:hover {
+    background-color: white;
+    border: 3px solid white;
+    color: #bb974a;
+    border-radius: 4px;
+}
+
+blockquote {
+    font-size: 3rem;
+    font-style: italic;
+    margin-left: 50px;
+}
+
+
+/*******************
+                    form styles 
+******************/
+
+.checkbox {
+    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+
+/*******************
+                    Home styles (mobile first)
+******************/
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url('/images/Haarlemmerpoort.jpeg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    overflow: hidden;
+}
+
+.header iframe {
+    height: 70vh;
+    width: 100vw;
+}
+
+.textbox {
+    background: #bb974a;
+    padding: 50px 50px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2rem;
+    text-shadow: black;
+    line-height: 1;
+}
+
+
+/*******************
+                    Navigation styles (mobile first)
+******************/
+
+nav {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    background-color: #bb974a;
+    width: 100%;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    float: right;
+    margin: 0px 10px;
+    margin-bottom: 30px;
+    text-decoration: none;
+}
+
+li:active {
+    color: black;
+}
+
+li:hover {
+    text-transform: uppercase;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/*******************
+                    blocks styles (mobile first)
+******************/
+
+.blockscontainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.block1 {
+    background-image: url(/images/klara-kulikova-CPMZguYURMw-unsplash.jpg);
+    background-size: 100% auto;
+    width: 100%;
+    height: 100vw;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-position: center;
+    border-image-width: auto;
+    margin: 0;
+    overflow: hidden;
+}
+
+.block2 {
+    width: 90%;
+    height: 100vw;
+    padding: 50px;
+    margin: 0;
+    overflow: hidden;
+    background-color: white;
+    color: #bb974a;
+}
+
+.block3 {
+    background-image: url(/images/candice-waldeck-ljPiGdbILr0-unsplash.jpg);
+    background-size: auto 100%;
+    width: 100%;
+    height: 100vw;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0;
+    overflow: hidden;
+}
+
+.block4 {
+    width: 90%;
+    height: 100vw;
+    padding: 50px;
+    margin: 0;
+    overflow: hidden;
+}
+
+
+/*******************
+                    reviews (mobile first)
+******************/
+
+.review {
+    font-style: italic;
+    font-size: 24px;
+    overflow: hidden;
+    background-color: white;
+    color: #bb974a;
+    text-align: center;
+    padding: 50px
+}
+
+
+/*******************
+                    blocks styles (desktop)
+******************/
+
+@media only screen and (min-width: 1160px) {
+    .blockcontainer {
+        display: flex;
+        flex-direction: row;
+    }
+    .block1,
+    .block2,
+    .block3,
+    .block4 {
+        width: 50%;
+        height: 30vw;
+        margin: 0px;
+        padding: 100px;
+    }
+    .container {
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 50px;
+    }
+    .kolom1 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        padding: 20px;
+    }
+    .kolom2 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        padding: 20px;
+    }
+    .kolom3 {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        padding: 20px;
+    }
+}
